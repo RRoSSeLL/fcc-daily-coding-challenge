@@ -14,5 +14,5 @@ describe('Reverse Parenthesis', () => {
     it('f(Ce(re))o((e(aC)m)d)p decodes to freeCodeCamp', () => {
       decode('f(Ce(re))o((e(aC)m)d)p').should.equal('freeCodeCamp');
     });
-  })
+  });
 });

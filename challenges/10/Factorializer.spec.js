@@ -15,4 +15,4 @@ describe('Factorializer', () => {
       factorial(20).should.equal(2432902008176640000);
     });
   });
-})
+});

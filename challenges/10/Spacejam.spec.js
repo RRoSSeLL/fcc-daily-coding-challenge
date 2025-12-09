@@ -21,4 +21,4 @@ describe('SpaceJam', () => {
       spaceJam('allyourbase').should.equal('A  L  L  Y  O  U  R  B  A  S  E');
     });
   });
-})
+});

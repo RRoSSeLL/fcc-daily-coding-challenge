@@ -20,5 +20,5 @@ describe('Second Best', () => {
     it('prices: [1200, 1500, 1600, 1800, 1400, 2000], Budget: 1450 second best iption is 1400', () => {
       getLaptopCost([1200, 1500, 1600, 1800, 1400, 2000], 1450).should.equal(1400);
     });
-  })
+  });
 });

@@ -26,5 +26,5 @@ describe('Character Battle', () => {
     it('"Mr. Smith", "Dr. Jones" the outcome is "It was a tie"', () => {
       battle('Mr. Smith', 'Dr. Jones').should.equal('It was a tie');
     });
-  })
+  });
 });

@@ -20,5 +20,5 @@ describe('Unorder Of Operations', () => {
     it('[33, 11, 29, 13], [" / ", " - "] equals to -2', () => {
       evaulate([33, 11, 29, 13], ['/', '-']).should.equal(-2);
     });
-  })
+  });
 });

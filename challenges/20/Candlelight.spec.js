@@ -20,5 +20,5 @@ describe('Candlelight', () => {
     it('for 2345 candles using 3 to make a new one the total burned is 3517', () => {
       burnCandles(2345, 3).should.equal(3517);
     });
-  })
+  });
 });

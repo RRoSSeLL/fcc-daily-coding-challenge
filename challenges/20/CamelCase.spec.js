@@ -20,5 +20,5 @@ describe('Camel Case', () => {
     it('ye old-_-sea  faring_buccaneer_-_with a - peg__leg----and a_parrot_ _named- _squawk changes to yeOldSeaFaringBuccaneerWithAPegLegAndAParrotNamedSquawk', () => {
       toCamelCase('ye old-_-sea  faring_buccaneer_-_with a - peg__leg----and a_parrot_ _named- _squawk').should.equal('yeOldSeaFaringBuccaneerWithAPegLegAndAParrotNamedSquawk');
     });
-  })
+  });
 });
